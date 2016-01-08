@@ -1,0 +1,8 @@
+--style=allman,
+--indent=force-tab=,
+--indent-switches,
+--indent-preprocessor,
+--pad-oper,
+--break-closing-brackets,
+--indent-col1-comments,
+--indent-classes,
