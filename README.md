@@ -1,1 +1,1 @@
-# settings
+# My short note about programming.
