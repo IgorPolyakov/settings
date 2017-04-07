@@ -1,7 +1,7 @@
 # My short note about programming.
 
 
-# How To Add Swap Space on Ubuntu 16.04 (Tested 07.04.2016)
+## How To Add Swap Space on Ubuntu 16.04 (Tested 07.04.2016)
 ### Basic Installation
 #### via wget
 ```shell
