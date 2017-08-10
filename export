@@ -1,7 +1,0 @@
-INCLUDE=/usr/local/include/opencv2:/usr/local/include/opencv:/usr/local/HDF_Group/HDF5/1.8.16/include
-LIB=${LIB}:/usr/local/HDF_Group/HDF5/1.8.16/lib:/usr/local/lib
-PATH=${PATH}:/usr/local/share/OpenCV:/usr/local/HDF_Group/HDF5/1.8.16/bin
-
-INCLUDE=${INCLUDE}:/usr/local/include
-LIB=${LIB}:/usr/local/lib
-PATH=${PATH}:/usr/local/HDF_Group/HDF5/1.8.16/share/cmake/:/usr/local/HDF_Group/HDF5/1.8.16/bin:/usr/local/bin
