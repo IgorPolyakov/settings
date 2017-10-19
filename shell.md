@@ -2,6 +2,10 @@
 ```sh
 grep -rl 'old_label' ./ | xargs sed -i 's/old_label/new_label/g'  
 ```
+# Найти и удалить
+``` 
+find ./ -xdev -type f -size +100M
+```
 # Посветка синтаксиса в nano
 ```sh
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh 
