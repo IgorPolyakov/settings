@@ -2,6 +2,10 @@
 ```sh
 grep -rl 'old_label' ./ | xargs sed -i 's/old_label/new_label/g'  
 ```
+# Очистить пространство подкачки в Linux?
+```sh
+swapoff -a && swapon -a
+```
 # Найти и удалить
 ``` 
 find ./ -xdev -type f -size +100M
