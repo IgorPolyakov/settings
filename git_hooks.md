@@ -1,4 +1,6 @@
-Run test before `push` commit
+## Run test before `push` commit
+
+Edit file `.git/hooks/pre-push`
 
 ```sh
 #!/bin/sh
