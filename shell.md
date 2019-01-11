@@ -31,3 +31,7 @@ cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1
 ```sh
 ps -eo pid,pcpu,comm | awk '{if ($2 > 0.001) print }' 
 ```
+# Пройтись по ссылкам из sitemap'а
+```sh
+wget --quiet http://www.example.com/sitemap.xml --output-document - | egrep -o "http://www\.example\.com[^<]+" | wget --spider -i - --wait 1
+```
