@@ -20,3 +20,7 @@ sh -c "$(wget https://raw.githubusercontent.com/IgorPolyakov/settings/master/pre
 ```shell
 sh -c "$(wget https://raw.githubusercontent.com/IgorPolyakov/settings/master/pre_install_server.sh -O -)"
 ```
+## MongoDB dump & restore
+```shell
+mongodump -d old_name --gzip --archive=dump.gzip && mongorestore --archive=dump.gzip  --gzip --nsFrom "old_name.*" --nsTo "new_name.*" --drop
+```
